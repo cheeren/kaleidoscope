@@ -13,6 +13,10 @@
 		AAF4A9981BF5B04E00F7CEBF /* nice_music.ogg in Resources */ = {isa = PBXBuildFile; fileRef = AAF4A9971BF5B04E00F7CEBF /* nice_music.ogg */; };
 		AAF4A99A1BF5B04E00F7CEBF /* sansation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AAF4A9991BF5B04E00F7CEBF /* sansation.ttf */; };
 		AAF4A99C1BF5B04E00F7CEBF /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = AAF4A99B1BF5B04E00F7CEBF /* icon.png */; };
+		AAF4A9A41BF5B06C00F7CEBF /* kali.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AAF4A9A21BF5B06C00F7CEBF /* kali.cpp */; };
+		AAF4A9A61BF5B15300F7CEBF /* wildflowers.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AAF4A9A51BF5B15300F7CEBF /* wildflowers.jpg */; };
+		AAF4A9A81BF6A26600F7CEBF /* HavasuFalls.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AAF4A9A71BF6A26600F7CEBF /* HavasuFalls.jpg */; };
+		AAF4A9AA1BF6A29C00F7CEBF /* yellowstone.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AAF4A9A91BF6A29C00F7CEBF /* yellowstone.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +29,11 @@
 		AAF4A9971BF5B04E00F7CEBF /* nice_music.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; path = nice_music.ogg; sourceTree = "<group>"; };
 		AAF4A9991BF5B04E00F7CEBF /* sansation.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = sansation.ttf; sourceTree = "<group>"; };
 		AAF4A99B1BF5B04E00F7CEBF /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		AAF4A9A21BF5B06C00F7CEBF /* kali.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = kali.cpp; path = ../kali.cpp; sourceTree = "<group>"; };
+		AAF4A9A31BF5B06C00F7CEBF /* kali.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = kali.hpp; path = ../kali.hpp; sourceTree = "<group>"; };
+		AAF4A9A51BF5B15300F7CEBF /* wildflowers.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wildflowers.jpg; sourceTree = "<group>"; };
+		AAF4A9A71BF6A26600F7CEBF /* HavasuFalls.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = HavasuFalls.jpg; sourceTree = "<group>"; };
+		AAF4A9A91BF6A29C00F7CEBF /* yellowstone.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = yellowstone.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +69,8 @@
 				AAF4A98F1BF5B04E00F7CEBF /* ResourcePath.mm */,
 				AAF4A9911BF5B04E00F7CEBF /* ResourcePath.hpp */,
 				AAF4A9921BF5B04E00F7CEBF /* main.cpp */,
+				AAF4A9A21BF5B06C00F7CEBF /* kali.cpp */,
+				AAF4A9A31BF5B06C00F7CEBF /* kali.hpp */,
 				AAF4A9941BF5B04E00F7CEBF /* Resources */,
 				AAF4A98D1BF5B04E00F7CEBF /* Supporting Files */,
 			);
@@ -77,6 +88,9 @@
 		AAF4A9941BF5B04E00F7CEBF /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				AAF4A9A51BF5B15300F7CEBF /* wildflowers.jpg */,
+				AAF4A9A91BF6A29C00F7CEBF /* yellowstone.jpg */,
+				AAF4A9A71BF6A26600F7CEBF /* HavasuFalls.jpg */,
 				AAF4A9951BF5B04E00F7CEBF /* cute_image.jpg */,
 				AAF4A9971BF5B04E00F7CEBF /* nice_music.ogg */,
 				AAF4A9991BF5B04E00F7CEBF /* sansation.ttf */,
@@ -143,9 +157,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				AAF4A99C1BF5B04E00F7CEBF /* icon.png in Resources */,
+				AAF4A9AA1BF6A29C00F7CEBF /* yellowstone.jpg in Resources */,
 				AAF4A99A1BF5B04E00F7CEBF /* sansation.ttf in Resources */,
+				AAF4A9A81BF6A26600F7CEBF /* HavasuFalls.jpg in Resources */,
 				AAF4A9981BF5B04E00F7CEBF /* nice_music.ogg in Resources */,
 				AAF4A9961BF5B04E00F7CEBF /* cute_image.jpg in Resources */,
+				AAF4A9A61BF5B15300F7CEBF /* wildflowers.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -174,6 +191,7 @@
 			files = (
 				AAF4A9931BF5B04E00F7CEBF /* main.cpp in Sources */,
 				AAF4A9901BF5B04E00F7CEBF /* ResourcePath.mm in Sources */,
+				AAF4A9A41BF5B06C00F7CEBF /* kali.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -311,6 +329,7 @@
 				AAF4A9A11BF5B04E00F7CEBF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
